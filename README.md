@@ -7,7 +7,7 @@ Miguel Ángel Ávalos Barrios
 
 ## Content
 
-**Índice**   
+**Index**   
 1. [Project Description](#id1)
 2. [Dataset](#id2)
 3. [Work Description](#id3)
