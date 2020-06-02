@@ -45,7 +45,7 @@ The dataset chosen for this project is from <a href="https://www.yelp.com/datase
 - *hours*: an dictionary of key day to value hours
 ``` 
 
-* *reviews.json**:
+* **reviews.json**:
 
 ```
 - *review_id*: string, 22 character unique review id
@@ -83,7 +83,7 @@ Different metrics were calculated in order to assess the recommendations of the 
 
 
 ## Results<a name="id4"></a>
-Three different Recommender Systems where constructed. NLP based recommenders performed better that the classical rating approach in the different 
+Three different Recommender Systems where constructed. NLP based recommenders performed better that the classical rating approach in the different.
 
 ## Sources <a name="id5"></a>
 
