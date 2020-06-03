@@ -1,4 +1,4 @@
-# :sushi: :taco:  IH Final Project: Recommender System based on NLP :hamburger: :pizza:
+# :sushi: :taco:  IH Final Project: NLP applications to Recommender System
 Repository of the Final Project in IH Data Analytics
 
 Miguel Ángel Ávalos Barrios
