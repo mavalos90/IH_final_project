@@ -1,4 +1,4 @@
-# IH Final Project: Recommender System based on NLP
+:hamburger: :sushi: :taco: # IH Final Project: Recommender System based on NLP :hamburger: :sushi: :taco:
 Repository of the Final Project in IH Data Analytics
 
 Miguel Ángel Ávalos Barrios
@@ -30,33 +30,33 @@ The dataset chosen for this project is from <a href="https://www.yelp.com/datase
 * **business.json**:
 
 ```
-- *business_id*: string, 22 character unique string business id
-- *name*: string, the business's name
-- *address*: string, the full address of the business
-- *city*: string, the city
-- *state*: string, the state (if aplicable)
-- *postal code*: string, the postal code
-- *latitude*: float, latitude
-- *longitude*: float, longitude
-- *stars*: float, rounded mean of rating
-- *review_count*: integer, number of reviews
-- *is_open*: integer, 1 is is open
-- *attributes*: object, business attributes to values
-- *hours*: an dictionary of key day to value hours
+- business_id: string, 22 character unique string business id
+- name: string, the business's name
+- address: string, the full address of the business
+- city: string, the city
+- state: string, the state (if aplicable)
+- postal code: string, the postal code
+- latitude: float, latitude
+- longitude: float, longitude
+- stars: float, rounded mean of rating
+- review_count: integer, number of reviews
+- is_open: integer, 1 is is open
+- attributes: object, business attributes to values
+- hours: an dictionary of key day to value hours
 ``` 
 
 * **reviews.json**:
 
 ```
-- *review_id*: string, 22 character unique review id
-- *user_id*: string, 22 character unique user id, maps to the user in user.json
-- *business_id*: string, 22 character unique string business id
-- *stars*: integer, rating 
-- *date*: string date format
-- *text*: string, the review itself
-- *useful*: integer, number of useful votes received
-- *funny*: integer, number of funny votes received
-- *cool*: integer, number of cool votes received
+- review_id: string, 22 character unique review id
+- user_id: string, 22 character unique user id, maps to the user in user.json
+- business_id: string, 22 character unique string business id
+- stars: integer, rating 
+- date: string date format
+- text: string, the review itself
+- useful: integer, number of useful votes received
+- funny: integer, number of funny votes received
+- cool: integer, number of cool votes received
 ``` 
 
 
@@ -83,10 +83,17 @@ Different metrics were calculated in order to assess the recommendations of the 
 
 
 ## Results<a name="id4"></a>
-Three different Recommender Systems where constructed. NLP based recommenders performed better that the classical rating approach in the different.
+Three different Recommender Systems where constructed. NLP based recommenders performed very similar compared to the classical rating approach.
 
 ## Sources <a name="id5"></a>
 
+https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada
+https://towardsdatascience.com/content-based-recommender-using-natural-language-processing-nlp-159d0925a649
+https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender
+https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-1-knn-item-based-collaborative-filtering-637969614ea
+https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-2-alternating-least-square-als-matrix-4a76c58714a1
+https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54
+https://towardsdatascience.com/evaluation-metrics-for-recommender-systems-df56c6611093
 
 <hr style="color: #7acaff;" width="50%" />
 
