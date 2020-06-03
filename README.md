@@ -90,11 +90,17 @@ Three different Recommender Systems where constructed. NLP based recommenders pe
 ### Sources <a name="id5"></a>
 
 https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada
+
 https://towardsdatascience.com/content-based-recommender-using-natural-language-processing-nlp-159d0925a649
+
 https://www.kaggle.com/morrisb/how-to-recommend-anything-deep-recommender
+
 https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-1-knn-item-based-collaborative-filtering-637969614ea
+
 https://towardsdatascience.com/prototyping-a-recommender-system-step-by-step-part-2-alternating-least-square-als-matrix-4a76c58714a1
+
 https://medium.com/@m_n_malaeb/recall-and-precision-at-k-for-recommender-systems-618483226c54
+
 https://towardsdatascience.com/evaluation-metrics-for-recommender-systems-df56c6611093
 
 <hr style="color: #7acaff;" width="50%" />
