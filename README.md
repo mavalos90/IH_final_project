@@ -1,6 +1,6 @@
 
 # IH FINAL PROJECT
-# :sushi: :taco:  NLP applications to Recommender System
+# :sushi: :taco:  Applications of NLP to Recommender Systems
 Repository of the Final Project in IH Data Analytics
 
 Miguel Ángel Ávalos Barrios
