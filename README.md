@@ -1,12 +1,11 @@
-:hamburger: :sushi: :taco: 
-# IH Final Project: Recommender System based on NLP :hamburger: :sushi: :taco:
+# :sushi: :taco:  IH Final Project: Recommender System based on NLP :hamburger: :pizza:
 Repository of the Final Project in IH Data Analytics
 
 Miguel Ángel Ávalos Barrios
 
 *Data Part Time Barcelona Dic 2019*
 
-## Content
+### Content
 
 **Index**   
 1. [Project Description](#id1)
@@ -19,12 +18,12 @@ Miguel Ángel Ávalos Barrios
 
 <a name="project"></a>
 
-## Project Description<a name="id1"></a>
+### Project Description<a name="id1"></a>
 
 The main objective of this project is create a colaborative filtering recommender system based on the reviews of the customer of different restaurants using different NLP (Natural Language Processing) techniques. Therefore, various recommenders systems were constructed. First, a "classical" recommender system based exclusivetely on the ratings of the users. With these recomender as a guideline, two different recommenders were constructed using NLP. The first of them, was constructed using Sentiment Analysis as a prediction of the rating. The other one was constructed using the whole sentence using word2vector embedding.
 
 
-## Dataset<a name="id2"></a>
+### Dataset<a name="id2"></a>
 
 The dataset chosen for this project is from <a href="https://www.yelp.com/dataset/">Yelp</a>. This dataset has different available information in JSON (JavaScript Object Notation) format. The two JSONs selected from the dataset were the following:
 
@@ -61,32 +60,32 @@ The dataset chosen for this project is from <a href="https://www.yelp.com/datase
 ``` 
 
 
-## Workflow<a name="id3"></a>
+### Workflow<a name="id3"></a>
 
 The workflow of this project can be described into the following steps:
 
-### Load and Selection raw data from Dataset
+#### Load and Selection raw data from Dataset
 
 In order to work with the dataset, previously it was necessary to load the business (+ 3GB) and reviews (+ 6GB) and extract the information required. Only restaurants as a business type was selected, limiting the dataset size to 2.7M of rows.
 
-### Exploratory Data Analysis
+#### Exploratory Data Analysis
 A briefly study of the main restuarant cuisines, ratings and localitations of them. 
 
-### Preprocessing
+#### Preprocessing
 The main task done in this step was transforming was cleaning the text, extracting the lemmas and finally tokenize it.
 
-### Models
+#### Models
 Differents algorithms were tested in order to create the different Recommender Systems, including kNN with pearson, cosine and msd distance, and SVD and NMF for matrix factorization. After comparing the performance of the models using RMSE (as well as MAE and MSE), a fine tunning of the different parameters was performed.
 
-### Final Metrics
+#### Evaluation Metrics
 
 Different metrics were calculated in order to assess the recommendations of the fine tunned recommender systems, including Mean Average Precission at K=10 (MAP@10) and Mean Average Recall at K = 10 (MAR@10), as well as catalog or novelty index of the recommendations.
 
 
-## Results<a name="id4"></a>
+### Results<a name="id4"></a>
 Three different Recommender Systems where constructed. NLP based recommenders performed very similar compared to the classical rating approach.
 
-## Sources <a name="id5"></a>
+### Sources <a name="id5"></a>
 
 https://towardsdatascience.com/introduction-to-recommender-systems-6c66cf15ada
 https://towardsdatascience.com/content-based-recommender-using-natural-language-processing-nlp-159d0925a649
