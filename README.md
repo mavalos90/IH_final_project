@@ -81,7 +81,7 @@ Differents algorithms were tested in order to create the different Recommender S
 
 #### Evaluation Metrics
 
-Different metrics were calculated in order to assess the recommendations of the fine tunned recommender systems, including Mean Average Precission at K=10 (MAP@10) and Mean Average Recall at K = 10 (MAR@10), as well as catalog or novelty index of the recommendations.
+Different metrics were calculated in order to assess the recommendations of the fine tunned recommender systems, including Mean Average Precission at K=10 (MAP@10) and Mean Average Recall at K = 10 (MAR@10).
 
 
 ### Results<a name="id4"></a>
